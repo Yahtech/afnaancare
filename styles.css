@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.video-slider {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.accordion-body {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+.video-slider video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slider-caption h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.slider-caption p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.whatsapp-chat {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999;
+    }
+    
+.whatsapp-chat img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1da851;
+    text-decoration: none;
+    position: left;
+}
+/* Video Slider */
+/* .video-slider {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+} */
+
+/* .video-slider video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.typing {
+    border-right: 2px solid green;
+  color: blue;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+  
+
+}
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Footer */
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+footer ul li {
+    margin: 0.5em 0;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
