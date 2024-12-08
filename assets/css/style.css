@@ -292,13 +292,15 @@ h6,
   right: 20px;
   background-color: #25d366;
   color: white;
-  border-radius: 50%;
+  border-radius: 20%;
   padding: 15px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   font-size: 24px;
   text-align: center;
 }
+
+
 .whatsapp-float:hover {
   background-color: #1ebe57;
   text-decoration: none;
