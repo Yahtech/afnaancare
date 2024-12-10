@@ -2,6 +2,33 @@
 body {
     font-family: Arial, sans-serif;
 }
+.moving-text {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .moving-text p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  @keyframes moveText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
 
 .video-slider {
     position: relative;

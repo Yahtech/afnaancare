@@ -253,7 +253,50 @@ h6,
 .navbar {
   padding: 0;
 }
+.moving-text {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  /* margin-bottom: -10px;
+  margin-top: -10px; */
+  position: relative;
+}
 
+.moving-text p {
+  display: inline-block;
+  white-space: nowrap;
+  animation: moveText 10s linear infinite;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-moving-text {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 15px;
+  background: #007bff;
+  color: white;
+  border-radius: 1px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.btn-moving-text:hover {
+  background: #0056b3;
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -354,6 +397,7 @@ h6,
 .container {
   position: relative;
   z-index: 1;
+  margin-top: 10;
 }
 
 .btn-get-started {
@@ -548,7 +592,8 @@ h6,
   transform: translateX(-50%) rotate(0deg);
 }
 .carousel-container {
-  padding: 20px;
+  padding: 0px;
+  
 }
 
 .video-box {
