@@ -50,7 +50,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   typeText();
 });
-
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Page loaded successfully!");
+});
 // Form
 document.addEventListener("DOMContentLoaded", () => {
   const formSection = document.getElementById("form");
