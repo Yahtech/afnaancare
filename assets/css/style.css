@@ -296,7 +296,7 @@ h6,
 }
 
 #main {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -390,7 +390,7 @@ h6,
   right: 20px;
   background-color: #25d366;
   color: white;
-  border-radius: 20%;
+  border-radius: 70%;
   padding: 15px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
