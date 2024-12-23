@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "At Afnaan Care, we are relentless in our resolve to make positive impact on the persons we care for and their families at large...Our core services include home care for the sick, incapacitated persons and others who may not be sick but require specialized care such as pregnant women, nursing mothers, infants and the aged.";
+  const text = "At Afnaan Care, we are relentless in our resolve to make positive impact on the persons we care for and their families at large...";
   const textElement = document.getElementById("liveTextt");
   let index = 0;
 
