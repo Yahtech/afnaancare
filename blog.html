@@ -237,6 +237,7 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -245,10 +246,11 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.html">What We Do</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+              
             </ul>
           </div>
 
@@ -266,9 +268,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adayi street
-              Otokiti layout, Kogi state<br>
-             Nigeria<br><br>
+              No 22 Off capitol road, Oniwaya, Agege, Lagos.
+             Nigeria<br>
               <strong>Phone:</strong> 2349162285884<br>
               <strong>Email:</strong> info@afnaancare.com<br>
             </p>
@@ -304,14 +305,12 @@
     </div>
   </footer><!-- End Footer -->
   <a href="https://wa.me/YOUR_PHONE_NUMBER" 
-   class="whatsapp-float" 
-   target="_blank" 
-   title="Chat with us on WhatsApp">
-   <i class="bi bi-whatsapp"></i>
+  class="whatsapp-float" 
+  target="_blank" 
+  title="Chat with us on WhatsApp">
+  <i class="bi bi-whatsapp"></i>
 </a>
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+ 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -325,28 +324,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const readMoreToggles = document.querySelectorAll('.read-more-toggle');
-
-        readMoreToggles.forEach(toggle => {
-            toggle.addEventListener('click', () => {
-                const parent = toggle.previousElementSibling; // Find the paragraph element
-                const moreText = parent.querySelector('.more-text');
-
-                if (moreText.style.display === 'none' || !moreText.style.display) {
-                    moreText.style.display = 'inline';
-                    toggle.textContent = 'Read Less';
-                } else {
-                    moreText.style.display = 'none';
-                    toggle.textContent = 'Read More';
-                }
-            });
-        });
-    });
-</script>
-
-
 </body>
 <a href="https://wa.me/2349162285884" 
 class="whatsapp-float" 
@@ -354,5 +331,4 @@ target="_blank"
 title="Chat with us on WhatsApp">
 <i class="bi bi-whatsapp"></i>
 </a>
-
 </html>

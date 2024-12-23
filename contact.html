@@ -42,19 +42,6 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="images/logo.jpg" alt="" class="img-fluid"></a>
       </div>
-
-      <!-- <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="active " href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">What We Do</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>< .navbar -->
-
-    <!-- </div> -->
   </header><!-- End Contact Section -->
   <main id="main"></main>
   <!-- ======= About Section ======= -->
@@ -161,14 +148,11 @@
       </div>
     </section><!-- End Contact Section -->
 
-  
-  
-  
 
     <!-- ======= Map Section ======= -->
     <section class="map mt-2">
       <div class="container-fluid p-0">
-        <!-- <iframe src="https://www.google.com/maps/search/No+22+Off+capitol+road,+Oniwaya,+Agege,+Lagos.+Nigeria/@6.6146523,3.3172636,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
+        <iframe src="https://www.google.com/maps/search/No+22+Off+capitol+road,+Oniwaya,+Agege,+Lagos.+Nigeria/@6.6146523,3.3172636,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       </div>
     </section><!-- End Map Section -->
 
@@ -270,35 +254,4 @@ target="_blank"
 title="Chat with us on WhatsApp">
 <i class="bi bi-whatsapp"></i>
 </a>
-
-      <script>
-        const form = document.querySelector('.php-email-form');
-        form.addEventListener('submit', async (event) => {
-            event.preventDefault(); // Prevent default form submission
-    
-            const formData = new FormData(form);
-    
-            try {
-                const response = await fetch(form.action, {
-                    method: form.method,
-                    body: formData,
-                });
-    
-                const result = await response.text();
-                if (result.trim() === "success") {
-                    document.querySelector('.sent-message').style.display = 'block';
-                    document.querySelector('.error-message').style.display = 'none';
-                    form.reset(); // Reset the form
-                } else {
-                    document.querySelector('.error-message').innerText = "There was an error sending your message.";
-                    document.querySelector('.error-message').style.display = 'block';
-                    document.querySelector('.sent-message').style.display = 'none';
-                }
-            } catch (error) {
-                document.querySelector('.error-message').innerText = "There was an error connecting to the server.";
-                document.querySelector('.error-message').style.display = 'block';
-                document.querySelector('.sent-message').style.display = 'none';
-            }
-        });
-    </script>
 </html>
