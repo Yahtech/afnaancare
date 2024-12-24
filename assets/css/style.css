@@ -5,6 +5,109 @@ body {
   background-color: #f8f9fa;
 }
 
+/* footer design */
+.mission-section {
+  background-color: #141227; /* Light gray background */
+  color: #fff; /* White text */
+  padding: 30px 0px;
+  text-align:right;
+  width: 50;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-logo {
+  text-align: center;
+  flex: 1;
+}
+
+.mission-logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.mission-text {
+  text-align: left;
+  flex: 1;
+}
+
+.mission-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.mission-text ul {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.mission-text ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6); /* Darker gray for footer */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mission-content {
+    flex-direction: row;
+    align-items:flex-start;
+    text-align:right;
+  }
+  .mission-logo img {
+    width: 100px;
+  }
+
+  .mission-text {
+    margin-left: 0;
+    
+  }
+
+  .mission-text ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .mission-logo img {
+    width: 100px;
+  }
+
+  .mission-text h2 {
+    font-size: 20px;
+  }
+
+  .mission-text ul li {
+    font-size: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .mission-logo img {
+    width: 100px;
+  }
+
+  .mission-text h2 {
+    font-size: 20px;
+  }
+  .mission-text p {
+    font-size: 10px;
+  }
+
+  
+}
 .nav-bar {
   display: flex;
   justify-content: space-around;
@@ -19,6 +122,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.nav-item1 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px; 
+  margin-bottom: 10px;
+
 }
 .nav-item img {
   width: 30px; /* Adjust image size to fit */
@@ -227,7 +339,8 @@ body {
 }
 .section-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
+  padding: auto;
 }
 .section-title h1 {
   font-size: 2.5rem;
@@ -243,6 +356,44 @@ body {
     font-size: 1.5rem;
   }
 }
+.button-container {  
+  display: flex;  
+  justify-content: center;  
+  gap: 5px;  
+}  
+
+.button {  
+  margin-top: 5;
+  padding: 5px 5px;  
+  border: none;  
+  border-radius: 5px;  
+  color: white;  
+  text-align: center;  
+  text-decoration: none;  
+  font-size: 16px;  
+  transition: background-color 0.3s, transform 0.3s;  
+}  
+
+.blue {  
+  background-color: #007BFF;  
+}  
+
+.pink {  
+  background-color: #FF4081;  
+}  
+
+.button:hover {  
+  transform: translateY(-2px);  
+}  
+
+.back-to-top {  
+  margin-top: 30px;  
+}  
+
+.back-to-top a {  
+  text-decoration: none;  
+  color: #333;  
+} 
 
 /* Moving slider end */
 a {
