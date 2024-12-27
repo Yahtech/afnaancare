@@ -2731,10 +2731,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #140352ab;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 #footer .footer-newsletter {
