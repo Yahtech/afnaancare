@@ -89,7 +89,7 @@ var swiper = new Swiper('.swiper-container', {
     delay: 1,
     disableOnInteraction: true,
   },
-  speed: 6000,
+  speed: 1000,
   breakpoints: {
     320: {
       slidesPerView: 1,
