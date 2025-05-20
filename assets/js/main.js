@@ -5,7 +5,22 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+ document.addEventListener('DOMContentLoaded', () => {
+      const alertBox = document.getElementById('alertBox');
+      const closeIcon = document.getElementById('closeIcon');
+      const closeAlertLink = document.getElementById('closeAlertLink');
 
+      // Close alert when the close icon or link is clicked
+      const closeAlert = () => {
+        alertBox.style.display = 'none';
+      };
+
+      closeIcon.addEventListener('click', closeAlert);
+      closeAlertLink.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent the link's default behavior
+        closeAlert();
+      });
+    });
 (function() {
   "use strict";
 
