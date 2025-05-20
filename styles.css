@@ -22,6 +22,23 @@ body {
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
   }
+  .alert-content h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #4CAF50; /* Green color to match the theme */
+  text-align: center;
+}
+.alert-content ul {
+  list-style-type: disc;
+  margin: 10px 0;
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #333; /* Adjust color as needed */
+}
+
+.alert-content ul li {
+  margin-bottom: 5px;
+}
 .moving-text {
     position: absolute;
     bottom: 10px;
