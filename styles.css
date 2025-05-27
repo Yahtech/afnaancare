@@ -35,6 +35,22 @@ body {
   font-size: 1rem;
   color: #333; /* Adjust color as needed */
 }
+.process-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .process-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
 
 .alert-content ul li {
   margin-bottom: 5px;
